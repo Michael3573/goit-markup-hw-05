@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- top line -->
-    <header class="contaier-site">
+    <header class="container-site">
       <div class="container header-conteiner">
       <nav class="header-navigation">
         <!-- Logo -->
@@ -27,13 +27,11 @@
         <!-- Button -->
         <ul class="list site-nav ">
           <li class="item">
-            <a class="link hover-nav header-nav" href="./index.html">Studio</a>
+            <a class="link hover-nav header-nav menu-link " href="./index.html">Studio</a>
           </li>
 
           <li class="item">
-            <a class="link hover-nav header-nav" href="./portfolio.html"
-              >Portfoilio</a
-            >
+            <a class="link hover-nav header-nav menu-link " href="./portfolio.html">Portfoilio</a>
           </li>
 
           <li class="item">
@@ -66,8 +64,10 @@
       <section class="hero overlay">
         
           <h1 class="hero-tittle">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-btn hover-btn ">Order Service</button>  
+          <button data-modal-open class="hero-btn hover-btn">Order Service</button>  
         
+          
+
       </section>
 
       <!-- Sections 1 -->
@@ -395,6 +395,12 @@
       </section>
       </main>
 
+            <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button data-modal-close class="close-btn-img">Закрыть</button>
+            </div>
+            </div>
+
     <footer class="back-foot ">
       <div class="container-fooer ">
         <div>
@@ -409,9 +415,7 @@
 
         <div class="container-subfooetr">
          <p class="footr-subtext">Social media</p>
-
         <ul class=" footer-social">
-         
               <li>
                 <a class="subbutton" href="">
               <svg class="button-icon" width="40" hight="40">
@@ -419,7 +423,6 @@
               </svg>
             </a>
         </li>
-
           <li>
             <a class="subbutton" href="">
               <svg class="button-icon" width="40" hight="40">
@@ -427,7 +430,6 @@
               </svg>
             </a>
         </li>
-
           <li>
             <a class="subbutton" href="">
               <svg class="button-icon" width="40" hight="40">
@@ -436,21 +438,19 @@
             </a>
            
         </li>
-
              <li>
               <a class="subbutton" href="">
                 <svg class="button-icon" width="40" hight="40">
                   <use href="./images/symbol-defs.svg#icon-linkedin" ></use>
                 </svg>
               </a>
-          
         </li>
         </ul>
         </div>
       </div>
     </footer>
 
-<!-- <span class="icon-instagram"></span> -->
-
+   
+ <script src="./js/modal.js"></script>
   </body>
 </html>
