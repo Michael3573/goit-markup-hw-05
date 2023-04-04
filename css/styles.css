@@ -58,12 +58,12 @@ color: var(--font-text);
 }
 
 .header-nav{
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--font-text);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--font-text);
 }
 
 .header-addr{
@@ -342,7 +342,6 @@ color: var(--font-text);
 
 .item-card{
     border: 1px solid #E7E9FC;
-
 }
 
 img {
@@ -416,7 +415,6 @@ img {
     display: flex;
     list-style: none;
     gap: 24px;
-    
 }
 
 .sublogo{
@@ -440,7 +438,6 @@ img {
 .header-conteiner {
     display: flex;
 }
-
 
 .list-item::before {
     content: '';
@@ -605,7 +602,6 @@ img {
     gap: 24px;
     padding-top: 8px;
 }
-
 
 .social-link{
     display: flex;
